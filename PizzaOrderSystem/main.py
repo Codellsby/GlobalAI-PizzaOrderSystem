@@ -184,7 +184,7 @@ def handle_order(pizza_choice):
     # This loop will continue until a valid credit card number is entered.
     while True:
         credit_card_number = input("Please enter your credit card number (in the format XXXX-XXXX-XXXX-XXXX): ")
-        if not credit_card_number.replace("-", "").isdigit() or len(credit_card_number) != 19:
+        if not credit_card_number.replace("-", "").isdigit() or len(credit_card_number.replace("-", "")) != 16 or credit_card_number[4] != '-' or credit_card_number[9] != '-' or credit_card_number[14] != '-':
             print("Invalid input! Credit card number should be in the format XXXX-XXXX-XXXX-XXXX and contain only digits.")
         else:
             break
