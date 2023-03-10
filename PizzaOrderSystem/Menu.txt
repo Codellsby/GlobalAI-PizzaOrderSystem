@@ -1,0 +1,27 @@
+[PIZZAS]
+1: Classic---------------129.90 TL
+2: Margherita------------139.90 TL
+3: TurkPizza-------------45 TL
+4: PlainPizza------------129.90 TL
+
+[TOPPINGS]
+11: Olives---------------3 TL
+12: Mushrooms------------5 TL
+13: GoatCheese-----------10 TL
+14: Meat-----------------15 TL
+15: Onions---------------3 TL
+16: Corn-----------------4 TL
+
+[SAUCES]
+21: Ketchup--------------3 TL
+22: Mayonnaise-----------3 TL
+23: Mustard--------------3 TL
+24: Sriracha-------------3 TL
+25: BBQ------------------3 TL
+
+[DRINKS]
+31: Coke-----------------20 TL
+32: Fanta----------------20 TL
+33: Sprite---------------20 TL
+34: Ayran----------------14 TL
+35: Water----------------10 TL
